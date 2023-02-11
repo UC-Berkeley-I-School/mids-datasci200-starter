@@ -1,0 +1,11 @@
+{
+    // Maybe generate this with a shell script?
+    "python.defaultInterpreterPath": "~/anaconda3/bin/python",
+    "python.linting.enabled": true,
+    "python.linting.flake8Args": ["--ignore=E501"],
+    "python.linting.flake8Enabled": true,
+    "files.exclude": {
+        "**/__pycache__": true
+    },
+    "notebook.lineNumbers": "on",
+}
