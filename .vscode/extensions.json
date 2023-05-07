@@ -1,6 +1,5 @@
 {
     // See https://code.visualstudio.com/docs/editor/extension-marketplace#_workspace-recommended-extensions
-
     "recommendations": [
         "ms-python.python",
         "ms-vscode-remote.vscode-remote-extensionpack"
