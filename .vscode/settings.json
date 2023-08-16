@@ -1,8 +1,14 @@
 {
-    "python.defaultInterpreterPath": "~/anaconda3/bin/python",
-    "python.linting.enabled": true,
-    "python.linting.pylintEnabled": true,
-    "python.linting.pylintArgs": ["--max-line-length=120"],
     "files.exclude": { "**/__pycache__": true},
     "notebook.lineNumbers": "on",
+    "python.defaultInterpreterPath": "~/anaconda3/bin/python",
+    "pylint.args": ["--max-line-length", "120"],
+    "black-formatter.args": ["--max-line-length", "120"],
+    "[python]": {
+        "diffEditor.ignoreTrimWhitespace": false,
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "ms-python.black-formatter",
+        "editor.wordBasedSuggestions": false,
+        "diffEditor.codeLens": true
+    },
 }

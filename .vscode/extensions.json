@@ -1,8 +1,13 @@
 {
     // See https://code.visualstudio.com/docs/editor/extension-marketplace#_workspace-recommended-extensions
     "recommendations": [
+        "eamodio.gitlens",
+        "ms-python.black-formatter", 
+        "ms-python.pylint",
         "ms-python.python",
         "ms-toolsai.jupyter",
         "ms-vscode-remote.vscode-remote-extensionpack",
+        "njpwerner.autodocstring",
+        "tomoki1207.pdf"
     ]
 }
