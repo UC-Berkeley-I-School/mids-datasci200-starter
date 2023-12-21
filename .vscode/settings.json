@@ -1,14 +1,15 @@
 {
-    "files.exclude": { "**/__pycache__": true},
-    "notebook.lineNumbers": "on",
+    "files.exclude": {"**/__pycache__": true},
     "python.defaultInterpreterPath": "~/anaconda3/bin/python",
     "pylint.args": ["--max-line-length", "120"],
     "black-formatter.args": ["--max-line-length", "120"],
     "[python]": {
-        "diffEditor.ignoreTrimWhitespace": false,
         "editor.formatOnSave": true,
         "editor.defaultFormatter": "ms-python.black-formatter",
         "editor.wordBasedSuggestions": false,
         "diffEditor.codeLens": true
     },
+    "notebook.lineNumbers": "on",
+    "notebook.formatOnSave.enabled": true,
+    "notebook.formatOnCellExecution": true,
 }
