@@ -5,9 +5,10 @@
         "ms-python.black-formatter", 
         "ms-python.pylint",
         "ms-python.python",
+        "ms-toolsai.datawrangler",
         "ms-toolsai.jupyter",
         "ms-vscode-remote.vscode-remote-extensionpack",
         "njpwerner.autodocstring",
-        "tomoki1207.pdf"
+        "tomoki1207.pdf",
     ]
 }

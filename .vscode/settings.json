@@ -1,15 +1,37 @@
 {
-    "files.exclude": {"**/__pycache__": true},
+    "github.copilot.enable": {
+        "*": false // GitHub copilot usage is not allowed for this class. You may use the web version to ask questions, but auto-complete LLMs are prohibited. 
+    },
+    "github.copilot.chat.welcomeMessage": "never",
+    "github.copilot.editor.enableAutoCompletions": false,
+    "github.copilot.editor.enableCodeActions": false,
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true,
+        "*Zone.Identifier": true,
+        ".ipynb_checkpoints": true,
+    },
     "python.defaultInterpreterPath": "~/anaconda3/bin/python",
-    "pylint.args": ["--max-line-length", "120"],
-    "black-formatter.args": ["--max-line-length", "120"],
+    "pylint.args": [
+        "--max-line-length",
+        "120"
+    ],
+    "black-formatter.args": [
+        "--max-line-length",
+        "120"
+    ],
     "[python]": {
         "editor.formatOnSave": true,
         "editor.defaultFormatter": "ms-python.black-formatter",
-        "editor.wordBasedSuggestions": false,
-        "diffEditor.codeLens": true
+        "editor.wordBasedSuggestions": "off",
+        "diffEditor.codeLens": true,
     },
     "notebook.lineNumbers": "on",
     "notebook.formatOnSave.enabled": true,
     "notebook.formatOnCellExecution": true,
+    "notebook.defaultFormatter": "ms-python.black-formatter",
 }
