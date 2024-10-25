@@ -3,7 +3,10 @@
         "diffEditor.codeLens": true,
         "editor.defaultFormatter": "ms-python.black-formatter",
         "editor.formatOnSave": true,
-        "editor.wordBasedSuggestions": "off"
+        "editor.wordBasedSuggestions": "off",
+        "files.autoSave": "onFocusChange",
+        "files.trimFinalNewlines": true,
+        "files.trimTrailingWhitespace": true
     },
     "black-formatter.args": [
         "--max-line-length",
@@ -29,7 +32,10 @@
     "notebook.lineNumbers": "on",
     "pylint.args": [
         "--max-line-length",
-        "120"
+        "120",
+        "--disable",
+        "missing-module-docstring"
     ],
+    "pylint.enabled": true,
     "python.defaultInterpreterPath": "~/anaconda3/bin/python"
 }
