@@ -130,4 +130,5 @@ dmypy.json
 
 # OS Specific files 
 .ds_store
+**/Thumbs.db
 *Zone.Identifier

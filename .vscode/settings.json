@@ -9,24 +9,29 @@
         "files.trimTrailingWhitespace": true
     },
     "black-formatter.args": [
-        "--max-line-length",
+        "--line-length",
         "120"
     ],
+    "chat.agent.enabled": false,
     "files.exclude": {
+        ".ipynb_checkpoints": true,
+        "**/__pycache__": true,
         "**/.DS_Store": true,
         "**/.git": true,
         "**/.hg": true,
         "**/.svn": true,
         "**/CVS": true,
         "**/Thumbs.db": true,
-        "*Zone.Identifier": true,
-        ".ipynb_checkpoints": true
+        "*Zone.Identifier": true
     },
-    "github.copilot.editor.enableAutoCompletions": false,
+    "github.copilot.chat.codesearch.enabled": false,
     "github.copilot.editor.enableCodeActions": false,
     "github.copilot.enable": {
         "*": false // GitHub copilot usage is not allowed for this class. You may use the web version to ask questions, but auto-complete LLMs are prohibited. 
     },
+    "inlineChat.lineEmptyHint": false,
+    "inlineChat.lineNaturalLanguageHint": false,
+    "jupyter.askForKernelRestart": false,
     "notebook.defaultFormatter": "ms-python.black-formatter",
     "notebook.formatOnSave.enabled": true,
     "notebook.lineNumbers": "on",
@@ -37,5 +42,6 @@
         "missing-module-docstring"
     ],
     "pylint.enabled": true,
-    "python.defaultInterpreterPath": "~/anaconda3/bin/python"
+    "python.defaultInterpreterPath": "~/anaconda3/bin/python",
+    "workbench.editor.empty.hint": "hidden"
 }
