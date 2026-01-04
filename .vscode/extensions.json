@@ -2,7 +2,7 @@
     // See https://code.visualstudio.com/docs/editor/extension-marketplace#_workspace-recommended-extensions
     "recommendations": [
         "bierner.markdown-mermaid",
-        "ms-python.black-formatter",
+        "charliermarsh.ruff",
         "ms-python.pylint",
         "ms-python.python",
         "ms-toolsai.datawrangler",

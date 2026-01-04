@@ -1,18 +1,21 @@
+// AI Completion tools are forbidden for this class. 
+// You may use the web version to ask questions, but auto-complete LLMs are prohibited. 
+// Do not modify this file.
 {
     "[python]": {
         "diffEditor.codeLens": true,
-        "editor.defaultFormatter": "ms-python.black-formatter",
+        "editor.defaultFormatter": "charliermarsh.ruff",
         "editor.formatOnSave": true,
         "editor.wordBasedSuggestions": "off",
         "files.autoSave": "onFocusChange",
         "files.trimFinalNewlines": true,
         "files.trimTrailingWhitespace": true
     },
-    "black-formatter.args": [
-        "--line-length",
-        "120"
-    ],
+    "antigravity.enabled": false,
     "chat.agent.enabled": false,
+    "cursor.cpp.enable": false,
+    "editor.formatOnSave": true,
+    "editor.inlineSuggest.enabled": false,
     "files.exclude": {
         ".ipynb_checkpoints": true,
         "**/__pycache__": true,
@@ -27,21 +30,19 @@
     "github.copilot.chat.codesearch.enabled": false,
     "github.copilot.editor.enableCodeActions": false,
     "github.copilot.enable": {
-        "*": false // GitHub copilot usage is not allowed for this class. You may use the web version to ask questions, but auto-complete LLMs are prohibited. 
+        "*": false
     },
     "inlineChat.lineEmptyHint": false,
     "inlineChat.lineNaturalLanguageHint": false,
     "jupyter.askForKernelRestart": false,
-    "notebook.defaultFormatter": "ms-python.black-formatter",
+    "notebook.defaultFormatter": "charliermarsh.ruff",
     "notebook.formatOnSave.enabled": true,
     "notebook.lineNumbers": "on",
-    "pylint.args": [
-        "--max-line-length",
-        "120",
-        "--disable",
-        "missing-module-docstring"
-    ],
     "pylint.enabled": true,
-    "python.defaultInterpreterPath": "~/anaconda3/bin/python",
+    "python.defaultInterpreterPath": ".venv/bin/python",
+    "ruff.fixAll": true,
+    "ruff.lint.enable": true,
+    "ruff.lineLength": 120,
+    "windsurf.enable": false,
     "workbench.editor.empty.hint": "hidden"
 }
