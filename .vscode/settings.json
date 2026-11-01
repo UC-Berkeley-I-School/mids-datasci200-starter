@@ -1,5 +1,5 @@
-// AI Completion tools are forbidden for this class. 
-// You may use the web version to ask questions, but auto-complete LLMs are prohibited. 
+// AI Completion tools are forbidden for this class.
+// You may use the web version to ask questions, but auto-complete LLMs are prohibited.
 // Do not modify this file.
 {
     "[python]": {
@@ -13,7 +13,34 @@
     },
     "antigravity.enabled": false,
     "chat.agent.enabled": false,
+    "chat.commandCenter.enabled": false,
+    "chat.disableAIFeatures": true,
+    "chat.extensionTools.enabled": false,
+    "chat.mcp.access": "none",
+    "chat.mcp.discovery.enabled": {
+        "claude-desktop": false,
+        "cursor-global": false,
+        "cursor-workspace": false,
+        "windsurf": false
+    },
+    "chat.sendElementsToChat.enabled": false,
+    "chatgpt.openOnStartup": false,
+    "claudeCode.enableNewConversationShortcut": false,
+    "claudeCode.hideOnboarding": true,
+    "claudeCode.preferredLocation": "panel",
+    "claudeCode.useTerminal": true,
+    "cloudcode.duetAI.enable": false,
+    "cloudcode.duetAI.inlineSuggestions.enableAuto": false,
+    "codeium.enableCodeLens": false,
+    "codeium.enableConfig": {
+        "*": false
+    },
+    "codeium.enableSearch": false,
+    "cody.autocomplete.enabled": false,
+    "cody.commandCodeLenses": false,
+    "continue.enableTabAutocomplete": false,
     "cursor.cpp.enable": false,
+    "dataWrangler.experiments.copilot.enabled": false,
     "editor.formatOnSave": true,
     "editor.inlineSuggest.enabled": false,
     "files.exclude": {
@@ -23,15 +50,25 @@
         "**/.git": true,
         "**/.hg": true,
         "**/.svn": true,
+        "**/.venv": true,
         "**/CVS": true,
         "**/Thumbs.db": true,
         "*Zone.Identifier": true
     },
+    "geminicodeassist.enable": false,
+    "geminicodeassist.inlineSuggestions.enableAuto": false,
     "github.copilot.chat.codesearch.enabled": false,
+    "github.copilot.editor.enableAutoCompletions": false,
     "github.copilot.editor.enableCodeActions": false,
     "github.copilot.enable": {
-        "*": false
+        "*": false,
+        "markdown": false,
+        "plaintext": false,
+        "python": false,
+        "scminput": false
     },
+    "github.copilot.nextEditSuggestions.enabled": false,
+    "github.copilot.renameSuggestions.triggerAutomatically": false,
     "inlineChat.lineEmptyHint": false,
     "inlineChat.lineNaturalLanguageHint": false,
     "jupyter.askForKernelRestart": false,
@@ -39,10 +76,30 @@
     "notebook.formatOnSave.enabled": true,
     "notebook.lineNumbers": "on",
     "pylint.enabled": true,
+    "python.analysis.aiCodeActions": {
+        "convertFormatString": false,
+        "generateDocstring": false,
+        "generateSymbol": false,
+        "implementAbstractClasses": false
+    },
     "python.defaultInterpreterPath": ".venv/bin/python",
     "ruff.fixAll": true,
-    "ruff.lint.enable": true,
     "ruff.lineLength": 120,
+    "ruff.lint.enable": true,
+    "search.searchView.keywordSuggestions": false,
+    "search.searchView.semanticSearchBehavior": "manual",
+    "supermaven.enable": {
+        "*": false
+    },
+    "tabnine.disableFileRegex": [
+        ".*"
+    ],
+    "tabnine.experimentalAutoImports": false,
+    "terminal.integrated.initialHint": false,
+    "vsintellicode.modify.editor.suggestSelection": "disabled",
+    "vsintellicode.python.completionsEnabled": false,
     "windsurf.enable": false,
-    "workbench.editor.empty.hint": "hidden"
+    "workbench.editor.empty.hint": "hidden",
+    "workbench.secondarySideBar.defaultVisibility": "hidden",
+    "workbench.settings.showAISearchToggle": false
 }
